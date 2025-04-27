@@ -22,14 +22,16 @@ Este repositorio contiene el código y los recursos necesarios para:
 ```
 .
 ├── data/
-│   └── electric_production.csv       # Serie original
+│   └── electric_production.csv       # Serie original (NO incluida en el repo por ser privada)
 ├── notebooks/
-│   └── 01_dclt_sarima_sa.ipynb            # Notebook principal (EDA → SA → Forecast)
+│   └── 01_dclt_sarima_sa.ipynb       # Notebook principal (EDA → SA → Forecast)
 ├── docs/
 │   └── img/output.png      # Ejemplo de salida gráfica
 ├── requirements.txt
 └── README.md
 ```
+
+> **Nota:** El archivo `electric_production.csv` es privado y no se encuentra en este repositorio.
 
 ---
 
@@ -56,8 +58,8 @@ Este repositorio contiene el código y los recursos necesarios para:
 
 ```bash
 # 1. Clona el repo
-git clone https://github.com/tu_usuario/sarima-sa-electric.git
-cd sarima-sa-electric
+git clone https://github.com/DiegoLerma/sarima-sa.git
+cd sarima-sa
 
 # 2. Crea entorno e instala dependencias
 python -m venv .venv
@@ -65,7 +67,7 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 3. Lanza el notebook
-jupyter lab notebooks/01_sarima_sa.ipynb
+jupyter lab notebooks/01_dclt_sarima_sa.ipynb
 ```
 
 El notebook guía paso a paso:
@@ -105,7 +107,7 @@ Al finalizar obtendrás una gráfica similar a la mostrada arriba y el resumen e
 ## 👤 Autor
 
 **Diego Cesar Lerma Torres** – Médico & Desarrollador IA  
-Contacto: diego@example.com • [LinkedIn](https://www.linkedin.com/in/tu_perfil)
+Contacto: diego@neuroglias.com • [LinkedIn](https://www.linkedin.com/in/diego-lerma/)
 
 ---
 
