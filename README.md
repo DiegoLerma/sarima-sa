@@ -26,7 +26,8 @@ Este repositorio contiene el código y los recursos necesarios para:
 ├── notebooks/
 │   └── 01_dclt_sarima_sa.ipynb       # Notebook principal (EDA → SA → Forecast)
 ├── docs/
-│   └── img/output.png      # Ejemplo de salida gráfica
+│   └── img/output.png
+│   └── reports/report.html
 ├── requirements.txt
 └── README.md
 ```
